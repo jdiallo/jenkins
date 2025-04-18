@@ -3,7 +3,7 @@ name: Promote and Deploy Frontend to Production
 on:
   push:
     branches:
-      - sprint-1
+      - main
 
   workflow_dispatch:
     inputs:
